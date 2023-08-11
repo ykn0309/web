@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .box {
+            height: 500px;
+            width: 1000px;
+            background-color: wheat;
+            margin: 100px auto;
+            border: 1px solid transparent
+        }
+
+        .leftbox {
+            height: 480px;
+            width: 280px;
+            background-color: royalblue;
+            margin: 10px 10px;
+            float: left;
+            line-height: 480px;
+            border-radius: 10%;
+        }
+
+        .rightbox {
+            height: 480px;
+            width: 690px;
+            background-color: rebeccapurple;
+            float: left;
+            margin-top: 10px ;
+        }
+
+        .littlebox {
+            float: left;
+            width: 160px;
+            height: 225px;
+            background-color: red;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 10%;
+            line-height: 225px;
+        }
+
+        .leftbox:hover {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+        }
+
+        .littlebox:hover {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="leftbox">0</div>
+        <div class="rightbox">
+            <div class="littlebox">1</div>
+            <div class="littlebox">2</div>
+            <div class="littlebox">3</div>
+            <div class="littlebox">4</div>
+            <div class="littlebox">5</div>
+            <div class="littlebox">6</div>
+            <div class="littlebox">7</div>
+            <div class="littlebox">8</div>
+        </div>
+    </div>
+</body>
+</html>

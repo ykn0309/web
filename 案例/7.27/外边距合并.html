@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f {
+            height: 200px;
+            width: 200px;
+            background-color: rebeccapurple;
+            margin-top: 50px;
+            margin-left: 50px;
+            /* border: 1px solid transparent; */
+            /* 只有上边距会出现塌陷，左边距不会 */
+            /* padding: 1px; */
+            overflow: hidden;
+        }
+        .s {
+            height: 100px;
+            width: 100px;
+            background: hotpink;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="f">
+        <div class="s"></div>
+    </div>
+</body>
+</html>
